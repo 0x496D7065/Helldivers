@@ -1,0 +1,51 @@
+List of Stratagems:
+wsdaw         Reinforcement !
+sswd          Resupply !
+wsaw          SOS Beacon !
+saswd         Machine Gun !
+sadwd         Anti-Material Rifle !
+saswwa        Stalwart !
+ssawd         Expendable Anti-Tank !
+sadda         Recoiless Rifle !
+sawsw         Framethrower !
+saswwd        Autocannon !
+sdaswad       Railgun !
+sswss         Spear !
+dsaww         Orbital Gatling Barrage !
+ddd           Orbital Airbust Strike !
+dsads         Orbital 120MM HE Barrage !
+dswwass       Orbital 380MM HE Barrage !
+ddsads        Orbital Walking Barrage !
+dswds         Orbital Lasers !
+dwssd         Orbital Railcannon Strike !
+wdd           Eagle Strafing Run !
+wdsd          Eagle Airstrike !
+wdssd         Eagle Cluster Bomb !
+wdsw          Eagle Napalm Airstrike !
+swwsw         Jump Pack !
+wdws          Eagle Smoke Strike !
+wdwa          Eagle 110MM Rocket Pods !
+wdsss         Eagle 500KG Bomb !
+ddw           Orbital Precision Strike !
+ddsd          Orbital Gas Strike !
+ddas          Orbital EMS Strike !
+ddsw          Orbital Smoke Strike !
+swadda        HMG Emplacement !
+swasdd        Shield Generation Relay !
+swdwad        Tesla Tower !
+sawd          Anti-Personnel Minefield !
+saswws        Supply Pack !
+sawas         Grenade Launcher !
+saswa         Laser Cannon !
+saas          Incendiary Mines !
+swawdd        Guard Dog Rover !
+sawwd         Ballistic Shield !
+sdwas         Arc Thrower !
+swadad        Shield Generator Pack !
+swddw         Machine Gun Sentry !
+swda          Gatling Sentry !
+swdds         Mortar Sentry !
+swawds        Guard Dog Rifle !
+swdwaw        Autocannon Sentry !
+swdda         Rocket Sentry !
+sswwa         EMS Mortar Sentry !
