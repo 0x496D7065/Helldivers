@@ -6,7 +6,7 @@
 /*   By: lpetit <lpetit@student.s19.be>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/25 11:47:52 by lpetit            #+#    #+#             */
-/*   Updated: 2024/02/25 17:05:36 by lpetit           ###   ########.fr       */
+/*   Updated: 2024/02/25 17:12:00 by lpetit           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,6 +64,7 @@ int main(void)
 	n = read(fd, buffer, 1000000);
 	if (n < 0)
 		return (0);
+	buffer[n] = '\0';
 	strat_list = ft_split(buffer, '\n');
 	while (1)
 	{
