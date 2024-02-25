@@ -6,7 +6,7 @@
 /*   By: lpetit <lpetit@student.s19.be>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/25 11:47:52 by lpetit            #+#    #+#             */
-/*   Updated: 2024/02/25 16:45:53 by lpetit           ###   ########.fr       */
+/*   Updated: 2024/02/25 17:05:36 by lpetit           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,9 +50,6 @@ void	on_key_pressed(int c, char **strat_list)
 
 int main(void)
 {
-	set_raw_mode();
-
-	fd_set readfds;
 	struct timeval timeout;
 	char	**strat_list;
 	char	buffer[1000000 + 1];
@@ -61,6 +58,8 @@ int main(void)
 	int	fd;
 	int	ret;
 
+	set_raw_mode();
+	fd_set readfds;
 	fd = open("stratagem.txt", O_RDONLY);
 	n = read(fd, buffer, 1000000);
 	if (n < 0)
@@ -75,8 +74,8 @@ int main(void)
 		ret = select(STDIN_FILENO + 1, &readfds, NULL, NULL, &timeout);
 		if (ret == -1)
 		{
-		perror("select");
-		break;
+			perror("select");
+			break;
 		}
 		else if (ret > 0)
 		{
